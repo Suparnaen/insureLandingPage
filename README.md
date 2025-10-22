@@ -61,7 +61,7 @@ Users should be able to:
 
 ### Accessibility feedback i got
 
--- page content should be contained by landmarks
+--Comment-1: The page content should be contained by landmarks
 
 `<section class="section" id="different">`
 
@@ -80,6 +80,25 @@ Add exactly one <main> in your HTML.
 Wrap all main page content inside it.
 
 Make sure it’s not inside <header>, <nav>, or <footer>.
+
+--Comment-2: Heading levels should only increase by one
+
+`<h4 class="service-title">Snappy Process</h4>.`
+
+Headings in HTML represent the outline or hierarchy of your page content.
+They help:
+
+Screen readers understand document structure.
+
+Search engines understand topic organization.
+
+Users visually follow the flow of information.
+
+The rule says:
+➡️ You should not skip heading levels.
+
+So you shouldn’t go from an <h1> directly to an <h4> — you should go <h1> → <h2> → <h3> → <h4> in order.
+So changed the heading in services section from <h3> to <h4>.
 
 ### Continued development
 
