@@ -132,8 +132,8 @@ a {
 	}
 
 	h4 {
-		/* 20px=1.25rem */
-		font-size: 1.25rem;
+		/* 22px = 1.375rem*/
+		font-size: 1.375rem;
 	}
 
 	body {
@@ -575,6 +575,7 @@ We are different section
 .service-title{
 	color:var(--blue-950);
 	letter-spacing: 0;
+	
 }
 .service-text{
 	font-size: 0.9rem;

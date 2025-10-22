@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://ffinsure-landing-page.netlify.app/)
 
 ## My process
 
@@ -58,6 +58,28 @@ Users should be able to:
 
 - Positioning the pattern on the left hand side and right hand side using CSS properties only.
 - And adjusting this pattern on the smaller screen size because the pattern gets overlapped in bigger screen. Hence I could not position the pattern properly in smaller screen.
+
+### Accessibility feedback i got
+
+-- page content should be contained by landmarks
+
+`<section class="section" id="different">`
+
+-🧩 Common mistakes to avoid
+
+❌ No <main> tag at all.
+
+❌ More than one <main> tag. (You can have multiple <section>s, but only one <main>.)
+
+❌ Nesting <main> inside another landmark (like inside <header> or <footer>).
+
+To fix:
+
+Add exactly one <main> in your HTML.
+
+Wrap all main page content inside it.
+
+Make sure it’s not inside <header>, <nav>, or <footer>.
 
 ### Continued development
 
